@@ -1,0 +1,475 @@
+  body{
+    background-color:#F0F0F0;
+  }
+    #wrapper{
+      border-radius:10px;
+      width:960px;
+      margin:0px auto;
+    }
+      /*header page begins*/	
+      #header{
+        height:150px;
+        padding:5px;
+      }
+        #logo{
+	  width:150px;
+	  height:150px;
+	  float:left;
+	}
+	#usuario{
+	  float:right;
+	  color:#664221;
+	}
+	#usuario input{
+	  width:120px;
+          border-radius:20px;
+ 	  border:1px solid #7CFC00;
+  	  padding-left:5px;
+  	  color:#664221;
+	}
+	#usuario .button_acceder{
+	  font-weight:bold;
+ 	  margin-top:5px;
+ 	  display:block;
+ 	  width:120px;
+  	  background-color:white;
+  	  border-style:none;
+          text-align:left;
+          color:#664221;
+ 	  border-bottom:2px solid #7CFC00;
+	}
+	#usuario .button_acceder:hover{
+ 	  color:#7CFC00;
+	}
+	#header #logo a:link,
+	#header #logo a:visited{
+	  background-image:url("../img/sprite2.png");
+	  display:block;
+	  background-position:0 -194px;
+	  width:150px;
+	  height:150px;
+	}
+	#header #logo a:hover{
+	  background-position:0 -394px;
+	  width:150px;
+	  height:150px;
+	}
+      /*header page ends*/	
+
+
+      #navigation{
+        height:50px;
+        font-weight:bold;
+        font-size:20px;
+      }
+	#navigation ul{
+	  list-style-type:none;
+	  margin:0px;
+	  padding:0px;
+	  margin-left:4px;
+	  width:100%;
+	}
+	#navigation ul li{
+	  float:left;
+	  width:158px;
+	}
+
+
+	/*navigation image*/
+	#navigation a{
+	  background-image:url("../img/sprite2.png");	
+	  background-position:0 -594px;
+	  display:block;
+	  width:150px;
+	  height:50px;
+	  color:white;
+	  text-decoration:none;
+	  text-align:center;
+	  padding-top:12px;
+	}
+	#navigation a:hover {
+	  background-position:0 -694px;
+	  /*color:#7CFC00;*/
+	}
+	#navigation .pulsada,#navigation .pulsada:hover {
+	  background-image:url("../img/sprite2.png");
+	  background-position:0 -694px;
+	}
+
+
+
+	/*headings of localizacion*/
+	  #headings{
+  	    height:50px;
+  	    background-color:#F0F0F0;
+  	    margin-bottom:15px;
+  	    color:#664221;
+	  }
+	  #headings h2{
+            margin:0px;
+            margin-top:12px;
+          }
+	  #headings .left_heading{
+ 	    width:375px;
+  	    height:50px;
+ 	    float:left;
+  	    text-align:center;
+  	    margin-left:30px;
+  	    border-top:2px solid #7CFC00;
+  	    border-bottom:2px solid #7CFC00;
+	  }
+
+	  #headings .right_heading{
+  	    width:375px;
+ 	    text-align:center;
+  	    height:50px;
+  	    margin-right:50px;
+  	    float:right;
+ 	    border-top:2px solid #7CFC00;
+ 	    border-bottom:2px solid #7CFC00;
+	  }
+	/*headings of localizacion ends*/
+
+
+
+       #content{
+         height:450px;
+       }
+
+ 
+
+	/*localizacion page*/
+	  .left,.right{
+  	    height:450px;
+  	    width:440px;
+  	    float:left;
+  	    border-radius:25px 0px 25px 0px;
+	  }
+	  .right{
+ 	    background-color:white;
+  	    margin-left:15px;
+  	    padding:0px;
+  	    padding:0px 15px 0px 30px;
+  	    color:#664221;
+  	    text-align:justify;
+	  }
+	  .right h2{
+ 	    margin-top:5px;
+ 	    margin-bottom:0px;
+ 	    margin-bottom:5px;
+ 	    color:#664221;
+	  }
+	  .right p{
+	    margin:0px;
+	  }
+	  .right form{
+ 	    width:325px;
+  	    height:440px;
+  	    margin:0 auto;
+  	    margin-top:5px;
+	  }
+	  .right form input,
+	  .right form textarea{
+ 	     width:325px;
+ 	     border-radius:20px;
+ 	     border:1px solid #7CFC00;
+  	     padding-left:5px;
+  	     resize:none;
+  	     color:#664221;
+ 	   }
+	  .right .enviar{
+	     font-weight:bold;
+  	     width:325px;
+ 	     float:right;
+ 	     margin-top:15px;
+ 	     display:block;
+ 	     width:325px;
+  	     text-align:right;
+  	     background-color:white;
+  	     border-style:none;
+  	     color:#664221;
+ 	     border-bottom:4px solid #7CFC00;
+	   }
+	   .right .enviar:hover{
+ 	      color:#7CFC00;
+	   }
+	   .left iframe{
+	     border-radius:20px;
+	   }
+	/*localizacion page ends*/
+	
+	/*Horario page begins*/
+	  #content_horario{
+	    height:452px;
+	    margin-top:0px;
+  	    padding:0px;
+	  }
+
+	  .imgp_horario,
+ 	  .imgt_horario{
+	    height:225px;
+	    width:440px;
+	    text-align:center;
+	    float:left;
+	    border-radius:20px;
+	  }
+	  .teorico_horario{
+	    border-bottom:2px dotted #7CFC00;
+	  }
+
+
+	  .teorico_horario,
+	  .practico_horario{
+	    float:left;
+	    color:#664221;
+	    height:225px;
+	    width:380px;
+	    padding-top:0px;
+	    margin-left:55px;
+	  }
+	  
+	  .teorico_horario h2,p{
+	    margin:0px auto 0px auto;
+	    margin:5px auto 5px auto;
+	  }
+	  .practico_horario h2,ul{
+	    margin:0px auto 0px auto;
+	    margin:5px auto 5px auto;
+	  }
+	  .practico_horario ul li{
+	    list-style-type:square;
+	  }
+	/*horario page ends*/
+
+
+
+	/*Mapa web begins*/
+	  #content_mapaweb{
+	    height:470px;
+	  }
+	  #content_enlaces span,
+	  #content_mapaweb span{
+	    font-size:30px;
+	    color:#664221;
+	    font-weight:bold;
+	    margin-left:400px;
+	  
+	  }
+	  #content_mapaweb ul{
+	    list-style-type:none;
+	    margin:0px;
+	    padding:0px;
+	    margin-left:50px;
+	  }
+	  #content_mapaweb ul.sub a{
+	    width:140px;
+	    height:25px;
+	    margin-left:50px;
+	  } 
+	  #content_mapaweb ul.sub a:hover{
+	    width:150px;
+	    box-shadow:0px 0px 10px black;
+	    transition:width 1s;
+	  }
+	  #content_mapaweb a{
+	    text-decoration:none;
+	    display:block;
+	    width:150px;
+	    height:25px;
+	    color:white;
+	    margin-bottom:2px;
+	    background-color:#af7239;
+	    border-radius:10px;
+	    text-align:center;
+	    padding-top:5px;
+	    font-size:17px;
+	  }
+	  #content_mapaweb a:hover{
+	    width:175px;
+	    box-shadow:0px 0px 10px black;
+	    transition:width 1s;
+	  }
+	/*Mapa web ends*/
+	 
+	  
+
+	/*Enlaces begins here*/
+	  #content_enlaces{
+	    height:300px;
+	  }
+	  #content_enlaces a{
+	    text-decoration:none;
+	    display:block;
+	    width:150px;
+	    height:25px;
+	    color:white;
+	    margin-bottom:2px;
+	    background-color:#af7239;
+	    border-radius:10px;
+	    text-align:center;
+	    padding-top:5px;
+	    font-size:17px;
+	    margin-left:50px;
+	  }
+	   #content_enlaces a:hover{
+	    width:175px;
+	    box-shadow:0px 0px 10px black;
+	    transition:width 1s;
+	  }
+	/*Enlaces ends here*/
+
+
+	/*gallery begins*/
+	  #content_gallery{
+	    height:540px;	  
+	  }
+	
+	  #fotos{
+	    height:540px;
+	    width:510px;
+	    border-right:2px dotted #7CFC00;
+	    float:left;
+	  }
+	  #videos{
+	    height:400px;
+	    width:400px;
+	    float:left;
+	    margin:20px 0px 0px 20px;
+	    opacity:0.6;
+	    background-color:black;
+	  }
+	  #videos:hover{
+	    opacity:1;
+	  
+	  }
+	  
+	  img.gallery{
+	    border-radius:20px;
+	    opacity:0.6;
+	    text-align:center;
+	    margin-left:10px;
+	    margin-top:20px;
+	  
+	  
+	  }
+	  img.gallery:hover{
+	    opacity:1;
+	    box-shadow:5px 5px 25px black;
+	  }
+	  
+	/*gallery ends*/
+	
+
+	/*Ofertas begins*/
+	  #content_ofertas{
+	    height:350px; 
+	  }
+	  #content_ofertas img{
+	    border-radius:20px;
+	  }
+	  #ofertas{
+	    margin:20px 0px 0px 300px;
+	  }
+	  table{
+	    padding:5px;
+	    color:#664221;
+	  }
+
+	/*Ofertas ends*/
+	  
+
+        #footer{
+          height:80px;
+        }
+	  #footer h3{
+  	    color:#492f18;
+  	    margin-top:0px;
+  	    margin:10px 0px 0px 10px;
+          }
+	  .icons{
+  	    float:right;
+ 	    width:300px;
+ 	    height:80px;
+	  }
+
+	  .mapa_web{
+  	    float:left;
+ 	    width:300px;
+  	    height:80px;
+	  }
+	  .mapa_web a{
+	    text-decoration:none;
+	    display:block;
+	    width:130px;
+	    height:20px;
+	    color:white;
+	    margin:10px 0px 0px 20px;
+	    background-color:#af7239;
+	    border-radius:10px;
+	    text-align:center;
+	    padding-top:2px;
+	    font-size:17px;
+	  }
+	  .direction{
+  	    float:left;
+  	    width:300px;
+  	    height:80px;
+  	    margin-left:20px;
+  	    text-align:center;
+	  }
+  
+
+
+
+
+  	/*floats icons*/
+	.facebook{
+	  float:right;
+          margin:5px 5px 0px 0px;
+	}
+	.twitter{
+	  float:right;
+          margin:5px 5px 0px 0px;
+	}
+	/*twitter image*/
+	#footer a.twitter:link,
+	#footer a.twitter:visited{
+	  background-image:url("../img/sprite2.png");	
+	  background-position:0 -794px;
+	  display:block;
+	  width:47px;
+	  height:47px;
+	}
+	#footer a.twitter:hover{	
+	  background-position:0 -891px;
+	}
+
+
+	/*facebook image*/
+	#footer a.facebook:link,
+	#footer a.facebook:visited{
+	  background-image:url("../img/sprite2.png");	
+	  background-position:0 0;
+	  display:block;
+	  width:47px;
+	  height:47px;
+	}
+	#footer a.facebook:hover{	
+	  background-position:0 -97px;
+	}
+
+
+	
+	
+/*border style*/
+#header,#navigation,#content,#footer,#content_horario,#content_mapaweb,#content_enlaces,#content_gallery,#content_ofertas{
+  border-radius:20px;
+  border:3px solid #7CFC00;
+  margin-bottom:10px;
+  background-color:white;
+}
+img{
+  border-radius:20px;
+}
+
+

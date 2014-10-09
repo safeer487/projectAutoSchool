@@ -1,0 +1,86 @@
+<!Doctype html>
+  <html>
+	<head>
+	  <title>
+	    Inicio
+	  </title>
+	    <link rel="icon" type="image/png" href="favicon.ico">
+	    <link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	
+	<body>
+	  <div id="wrapper"> 								<!--wrapper starts-->
+
+	    <div id="header">								<!--header starts-->
+	      <div id="logo">
+	        <a href="index.html"></a>
+	      </div>
+
+	      <div id="usuario">
+	        <form action="#" method="post">
+	  	  <label for="usuario">Usuario</label><br/>
+		  <input type="text" name="usuario" size="17" requiered><br/>
+
+		  <label for="contraseña">Contraseña</label><br/>
+		  <input type="password" name="contraseña" size="17" requiered></br>
+
+		  <input class="button_acceder" type="submit" value="Acceder">
+		</form>
+	      </div>
+	    </div> 									<!--header ends-->
+
+	    <div id="navigation">							<!--navigation starts-->
+	      <ul>
+	        <li><a class="pulsada" href="index.html">Inicio</a></li>
+	        <li><a href="hml/localizacion.html">Localizacion</a></li>
+	        <li><a href="hml/gallery.html">Gallery</a></li>	
+	        <li><a href="hml/ofertas.html">Ofertas</a></li>
+	        <li><a href="hml/enlaces.html">Enlaces</a></li>
+	        <li><a href="hml/horario.html">Horario</a></li>
+	      </ul>
+	    </div> 									<!--navigation ends-->
+	    
+            <div id="content">								<!--content starts-->
+
+	      <div class="left">
+                <img src="img/1.png">
+	      </div>
+	      <div class="right">
+		<h2>Autoeskola Benetusser</h2>
+	  	<p>
+		   Autoeskola Benetusser nace de una profunda pasion por formar a los mejores conductores de la manera mas 		   completa y rapida posible, creando con ello una nueva generacion de conductores mas preparados y con la 		   mejor formacion.<br/>
+		   Apostamos por una formacion completa y unos servicios transparentes, queriendo transmitir con esto que 		   	   una autoescuela diferente, del futuro y adaptada a los nuevos estilos de vida, es posible.<br/>
+
+		   Somos una autoescuela innovadora, con los sistemas y software multimedia mas prestigiosos del mercado, 		           dispuestos  a facilitar la formacion de los alumnos con estos metodos adaptados a las nuevas normativas                    de la Direccion General de Trafico, siempre garantizando la mas completa informacion.<br/>
+		   Nuestro profesorado cuenta con una amplia experiencia en la Educacion Vial, con mas de 30 años de 		                   experiencia en el sector.<br/>
+		   Ofrecemos una amplia variedad de cursos y obtencion de permisos, siendo con esto uno de los mejores y                      mas completos centro de formacion del momento. Siempre ampliando nuestros servicios para la 		   		   satisfaccion del cliente.
+		</p>
+	      </div>									<!--div class right ends-->
+
+	    </div> 									<!--content ends-->
+
+
+	    <div id="footer">								<!--footer starts-->
+
+	      <div class="icons">
+	        <a class="facebook" href="https://www.facebook.com/autoeskola.benetusser.3?fref=ts" target="_blank"></a>
+	        <a class="twitter" href="http://www.twitter.com" target="_blank"></a>
+	      </div>
+	
+  	      <div class="mapa_web">
+	        <div id="button_mapaweb">
+	        <a href="hml/mapaweb.html">Mapa Web</a>
+	  	</div>									<!--div id button ends-->
+	      </div>
+
+	      <div class="direction">
+ 	        <h3>Avda Cami Nou 34 Benetusser</h3>
+	        <h3>Telefono: 960035317</h3>
+	      </div>
+	    </div> 									<!--footer ends-->
+
+
+	  </div> 									<!--wrapper ends-->
+
+	</body>
+  </html>
